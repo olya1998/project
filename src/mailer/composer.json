@@ -1,0 +1,17 @@
+{
+    "name": "olya/mailer",
+    "autoload": {
+        "psr-4": {
+            "Olya\\Mailer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Olya",
+            "email": "olbka0844@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}

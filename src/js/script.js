@@ -2,8 +2,8 @@ $(document).ready(function(){
     $('.carousel__inner').slick({
         speed: 1200,
         adaptiveHeight: true,
-        prevArrow: '<button type="button" class="slick-prev"><img src="icons/left.png"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="icons/right solid.png"></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="icons_src/left.png"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="icons_src/right solid.png"></button>',
         responsive: [
             {
                 breakpoint: 992,
@@ -80,7 +80,7 @@ $(document).ready(function(){
     validateForms('#order form');
 
     $('input[name=phone]').mask("+38 (999) 999-99-99");
-    
+
     $('form').on("submit", function(e) {
         e.preventDefault();
 
@@ -109,5 +109,5 @@ $(document).ready(function(){
             $('.pageup').fadeOut();
         }
     })
-}); 
+});
 
